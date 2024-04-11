@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, rgb(0, 0, 0), #080808, #0a0909);
+}
+
+h1, h4, p, a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  padding: 8px 28px;
+  font-size: 24px;
+  background: linear-gradient(to right, #ffffff, #cfc9c4e7);
+  color: #0c0c0c;
+  border: 2px solid #fff;
+  border-radius: 100px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-light {
+  background: linear-gradient(to right, #000000, #0e0d0de7, #1a1919e7);
+  color: #fff;
+}
+
+.btn:hover {
+  background: rgb(241, 83, 9);
+  color: #fff;
+  transition: 0.3s;
+}
+

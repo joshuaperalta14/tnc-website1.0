@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  background: #222121;
+}
+
+.sidebar {
+  background: linear-gradient(to bottom, #141414c0, #050505, #000000c0);
+  color: #fff;
+  height: 120vh;
+  width: 250px;
+  transition: all 0.5s;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 19px;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.bars {
+  display: flex;
+  font-size: 20px;
+}
+
+.sidebar-link {
+  display: flex;
+  color: #fff;
+  padding: 25px 20px;
+  font-size: 19px;
+  gap: 10px;
+  transition: all 0.5s;
+}
+
+.sidebar-link:hover {
+  background: #ff7b00ea;
+  color: #ffffff;
+  transition: all 0.5s;
+}
+
+.active {
+  background: #ff7b00ea;
+  color: #ffffff;
+}
+
+.icon {
+  width: 27px; /* Set the width of the container */
+  height: 27px; /* Set the height of the container */
+  display: flex; /* Use flexbox to center the icon */
+  justify-content: center; /* Center the icon horizontally */
+  align-items: center; /* Center the icon vertically */
+  margin-right: 5px; /* Add margin for spacing between icon and text */
+  background-color: #575656;
+  border-radius: 8px; 
+}
+
+.icon, .link_text {
+  font-size: 20px;
+}
